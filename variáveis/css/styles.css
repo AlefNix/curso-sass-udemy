@@ -1,0 +1,32 @@
+h1 {
+  color: #123;
+  border: 2px solid red;
+}
+
+p {
+  color: #123;
+  border: 2px solid red;
+  font-size: 3rem;
+  margin: 12px;
+}
+
+a {
+  color: #123;
+}
+
+div p {
+  background-color: blue;
+  color: #fff;
+  border: 3px dotted green;
+}
+div p span {
+  border: 3px dotted green;
+  color: red;
+}
+
+h2 {
+  color: green;
+  border: 2px solid red;
+}
+
+/*# sourceMappingURL=styles.css.map */

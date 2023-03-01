@@ -1,0 +1,80 @@
+div, main
+    background: #ddd
+
+    p, h2
+        color: blue
+
+main
+
+    .p-vermelho
+        color: red
+
+li
+    color: purple
+
+ol
+    > li
+        color: blue
+
+a
+    text-decoration: none
+    color: green
+    transform: .5s
+    padding: 10px
+    border: 1px solid green
+
+    &:hover
+        background-color: green
+        color: white
+
+.container
+    background-color: #ccc
+    padding: 20px
+    margin: 20px   
+
+    &-content
+        color: red    
+
+.spacing
+    padding: 200px
+
+.btn
+    padding: 10px 20px
+    border: 1px solid blue
+    border-radius: 5px
+    color: #fff
+    background: blue
+    cursor: pointer
+    margin: 5px
+
+    &:hover
+        background: transparent
+        color: blue
+
+    &-success
+        background: green
+        border-color: green
+
+        &:hover
+            color: green
+    
+    &-danger
+        background: red
+        border-color: red
+
+        &:hover
+            color: red
+
+%base-title-style
+    border-bottom: 2px dotted red
+    padding: 10px
+    background: yellow
+    text-align: center
+
+.title
+    font-size: 30px
+    @extend %base-title-style
+
+.subtitle
+    font-size: 25px
+    @extend %base-title-style
